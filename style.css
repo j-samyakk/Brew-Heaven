@@ -618,7 +618,11 @@ body {
   /* End of Contact Us */
 }
 
-@media screen and (min-width:375px) and (max-width:425px) {
+@media screen and (max-width:425px) {
+
+  html{
+    overflow-x: hidden;
+  }
   /* Home Page */
 
   .mainPageBox{
@@ -641,6 +645,14 @@ body {
 
   /* End of Home Page */
 
+  /* Menu */
+
+  .menuBox{
+    width: 90%;
+  }
+
+  /* End of Menu */
+
   /* Contact Us */
 
   .sectionHeading{
@@ -653,8 +665,8 @@ body {
   }
 
   .inputBox input{
-    width: 97%;
-    margin: 4% 0;
+    width: 10%;
+    /* margin: 4% 0; */
   }
 
   .contactUsForm button{
